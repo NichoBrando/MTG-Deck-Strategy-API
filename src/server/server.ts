@@ -1,12 +1,10 @@
 // tslint:disable-next-line
 const express = require("express");
 const app = express();
-const port = 8080; // default port to listen
+const port = 3000;
 
-// define a route handler for the default home page
 app.get( "/", ( req, res ) => {
     res.send( "Hello world!" );
 } );
 
-// start the Express server
 app.listen( port );
