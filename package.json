@@ -1,0 +1,18 @@
+{
+  "name": "MTG-Deck-Strategy-API",
+  "version": "1.0.0",
+  "description": "An API to verify effectivity of decks.",
+  "main": "./src/server/server.ts",
+  "repository": "https://github.com/NichoBrando/MTG-Deck-Strategy-API",
+  "author": "Nicholas Brandao <nicholas.computacao@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server/server.ts",
+    "lint": "tslint -c tslint.json -p tsconfig.json --fix"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  }
+}
